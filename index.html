@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <style>
+      /* .box { */
+      /* background-image: url(src/img/vector_smart_object_11.png), */
+      /* rgb(145, 20, 145); */
+      /* background-repeat: no-repeat; */
+      /* background-blend-mode: soft-light; */
+      /* } */
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="menu">
+        <ul class="menu__list">
+          <li class="menu__items">
+            <a class="menu__link" href="#"> Sign in</a>
+          </li>
+          <li class="menu__items">
+            <a class="menu__link" href="#"> Join us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <form class="form" action="#">
+          <label class="form__label" for="Username">Username</label>
+          <input type="text" id="Username" name="Username" />
+          <label class="form__label" for="Password">Password</label>
+          <input type="password" id="Password" name="Password" />
+          <div class="checkbox">
+            <input
+              class="keep"
+              type="checkbox"
+              id="keep"
+              name="keep"
+              value="yes"
+            />
+            <label class="keepl" for="keep">Keep me signed in</label>
+            <input class="button" type="submit" value="Sign in" />
+          </div>
+        </form>
+        <div class="menu-footer">
+          <ul class="menu-footer__list">
+            <li class="menu-footer__item">
+              <a class="menu-footer__link" href="#">Forgot password</a>
+            </li>
+            <li class="menu-footer__item">
+              <a class="menu-footer__link" href="#">Create an account</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
